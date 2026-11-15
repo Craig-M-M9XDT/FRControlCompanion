@@ -120,7 +120,7 @@ class MainWindow(QMainWindow):
         super().__init__()
         self.settings = settings
         self.dispatcher = QtDispatcher()
-        self.setWindowTitle("Flex Control Companion")
+        self.setWindowTitle("FR Control Companion")
         icon = ASSETS / "FlexCompanionIcon.png"
         if icon.exists():
             self.setWindowIcon(QIcon(str(icon)))
@@ -151,7 +151,7 @@ class MainWindow(QMainWindow):
             head.addWidget(pic)
         tbox = QVBoxLayout()
         tbox.setSpacing(0)
-        self.title_lbl = label("FLEX CONTROL COMPANION", "title")
+        self.title_lbl = label("FR CONTROL COMPANION", "title")
         tbox.addWidget(self.title_lbl)
         self.subtitle = label(f"Native Pi / Linux build · v{__version__} · {_core.BACKEND_NAME}", "dim")
         tbox.addWidget(self.subtitle)
@@ -232,7 +232,7 @@ class MainWindow(QMainWindow):
         self.sidebar.setVisible(not compact)
         self.subtitle.setVisible(not compact)
         self.disc_text.setVisible(not compact)
-        self.title_lbl.setText("FLEX COMPANION" if compact else "FLEX CONTROL COMPANION")
+        self.title_lbl.setText("FRCC" if compact else "FR CONTROL COMPANION")
         self.tabs.clear()
         if compact:
             self.tabs.addTab(self.radios_tab, "RADIOS")

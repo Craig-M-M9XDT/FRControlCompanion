@@ -1,7 +1,7 @@
 """A simulated FLEX radio for testing and demos (no hardware needed).
 
 Implements enough of the SmartSDR TCP API, VITA-49 meters, DAX IQ and LAN discovery
-to drive Flex Control Companion end to end::
+to drive FR Control Companion end to end::
 
     flexcompanion-sim                       # listen on 127.0.0.1:4992
     flexcompanion-sim --host 0.0.0.0 --discovery   # visible on the LAN
@@ -609,7 +609,7 @@ def _local_ip() -> str:
 
 
 def main(argv=None) -> None:
-    ap = argparse.ArgumentParser(description="Simulated FLEX radio for Flex Control Companion")
+    ap = argparse.ArgumentParser(description="Simulated FLEX radio for FR Control Companion")
     ap.add_argument("--host", default="127.0.0.1")
     ap.add_argument("--port", type=int, default=4992)
     ap.add_argument("--model", default="FLEX-6600")

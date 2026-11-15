@@ -1,4 +1,4 @@
-// flexcore — native DSP / packet core for Flex Control Companion (Pi native build).
+// flexcore — native DSP / packet core for FR Control Companion (Pi native build).
 //
 // Ported from the .NET Companion's FlexClient.ParseVita / IqAnalyzer. The Python app
 // does networking, state and UI; this module does the per-packet and per-frame work
@@ -413,7 +413,7 @@ py::object parse_fcsp(const py::buffer& data) {
 }  // namespace
 
 PYBIND11_MODULE(flexcore, m) {
-    m.doc() = "Native VITA-49 / FFT core for Flex Control Companion";
+    m.doc() = "Native VITA-49 / FFT core for FR Control Companion";
     m.attr("PCC_METER") = kPccMeter;
     m.attr("PCC_AUDIO_FLOAT") = kPccAudioFloat;
     m.attr("PCC_AUDIO_INT16") = kPccAudioInt16;

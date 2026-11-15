@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Flex Control Companion — native Raspberry Pi / Linux build (Python + Qt + C++ core)
+# FR Control Companion — native Raspberry Pi / Linux build (Python + Qt + C++ core)
 #
 # One-line install (downloads the source and builds it on this machine):
 #   curl -fsSL https://raw.githubusercontent.com/Craig-M-M9XDT/FlexCompanion/main/pi-native/deploy/install.sh | sudo bash -s -- --touch
@@ -63,7 +63,7 @@ if [[ -n "$TARGET_USER" && "$TARGET_USER" != "root" ]]; then
 fi
 
 if [[ $UNINSTALL -eq 1 ]]; then
-  say "Removing the native Flex Control Companion"
+  say "Removing the native FR Control Companion"
   rm -rf "$PREFIX" "$LAUNCHER" "$DESKTOP_FILE" /usr/share/pixmaps/flexcompanion-native.png
   [[ -n "$TARGET_HOME" ]] && rm -f "$TARGET_HOME/.config/autostart/flexcompanion-native.desktop"
   say "Done. Settings were kept in ~/.config/FlexCompanion/settings.json"
@@ -202,7 +202,7 @@ install -D -m 644 "$SRC/flexcompanion/ui/assets/FlexCompanionIcon.png" "$ICON"
 cat >"$DESKTOP_FILE" <<DESKTOP
 [Desktop Entry]
 Type=Application
-Name=Flex Control Companion (native)
+Name=FR Control Companion (native)
 Comment=FLEX radio companion — Python/Qt build
 Exec=$LAUNCHER$ARGS
 Icon=$ICON

@@ -9,7 +9,7 @@ import sys
 
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(prog="flexcompanion-native",
-                                 description="Flex Control Companion — native Raspberry Pi / Linux build")
+                                 description="FR Control Companion — native Raspberry Pi / Linux build")
     ap.add_argument("--touch", action="store_true", help="start with large touch controls")
     ap.add_argument("--kiosk", action="store_true", help="start full-screen")
     ap.add_argument("--demo", action="store_true", help="start a simulated radio and connect to it (no hardware needed)")
@@ -38,7 +38,7 @@ def main(argv=None) -> int:
     from .ui.main_window import MainWindow
 
     app = QApplication(sys.argv[:1])
-    app.setApplicationName("Flex Control Companion")
+    app.setApplicationName("FR Control Companion")
     app.setDesktopFileName("flexcompanion-native")
     theme.apply(app)
     signal.signal(signal.SIGINT, lambda *_: app.quit())

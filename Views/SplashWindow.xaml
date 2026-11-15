@@ -34,7 +34,7 @@
                 </Border>
             </Grid>
 
-            <TextBlock Grid.Row="1" Text="FLEX CONTROL COMPANION"
+            <TextBlock Grid.Row="1" Text="FR CONTROL COMPANION"
                        FontSize="26" FontWeight="Bold" Foreground="White"
                        HorizontalAlignment="Center" Margin="0,10,0,0"/>
             <TextBlock Grid.Row="2" Text="Created by Craig Magee M9XDT"

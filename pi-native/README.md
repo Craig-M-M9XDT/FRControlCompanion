@@ -1,4 +1,4 @@
-# Flex Control Companion — native Raspberry Pi / Linux build
+# FR Control Companion — native Raspberry Pi / Linux build
 
 A from-scratch rebuild of the Companion's Raspberry Pi app in **Python + Qt (PySide6)** with a
 **C++ core** for the per-packet and per-frame work. It uses the same FLEX API logic as the .NET
