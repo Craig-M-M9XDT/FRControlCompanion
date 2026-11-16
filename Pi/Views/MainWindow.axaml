@@ -3,6 +3,7 @@
         xmlns:views="clr-namespace:FlexCompanion.Views"
         x:Class="FlexCompanion.Views.MainWindow"
         Title="FR Control Companion"
+        Icon="avares://FlexCompanion/Assets/FlexCompanionIcon.png"
         Width="1280" Height="800"
         MinWidth="640" MinHeight="420"
         Background="#080C14">

@@ -2,7 +2,7 @@
 # FR Control Companion — native Raspberry Pi / Linux build (Python + Qt + C++ core)
 #
 # One-line install (downloads the source and builds it on this machine):
-#   curl -fsSL https://raw.githubusercontent.com/Craig-M-M9XDT/FlexCompanion/main/pi-native/deploy/install.sh | sudo bash -s -- --touch
+#   curl -fsSL https://raw.githubusercontent.com/Craig-M-M9XDT/FRControlCompanion/main/pi-native/deploy/install.sh | sudo bash -s -- --touch
 #
 # From a checkout:
 #   sudo pi-native/deploy/install.sh --touch --autostart
@@ -10,7 +10,7 @@
 # Works on 64-bit and 32-bit Raspberry Pi OS (Bookworm / Trixie) and Debian / Ubuntu desktops.
 set -euo pipefail
 
-REPO="Craig-M-M9XDT/FlexCompanion"
+REPO="Craig-M-M9XDT/FRControlCompanion"
 REF="main"
 PREFIX="/opt/flexcompanion-native"
 LAUNCHER="/usr/local/bin/flexcompanion-native"

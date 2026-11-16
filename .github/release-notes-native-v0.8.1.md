@@ -15,7 +15,7 @@ Native Python + PySide6 + C++ edition, independently of the Windows/.NET applica
 On Raspberry Pi OS (Bookworm or Trixie, 32-bit or 64-bit where PySide6 is available):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Craig-M-M9XDT/FlexCompanion/v0.8.1/pi-native/deploy/install.sh | sudo bash -s -- --ref v0.8.1 --touch
+curl -fsSL https://raw.githubusercontent.com/Craig-M-M9XDT/FRControlCompanion/v0.8.1/pi-native/deploy/install.sh | sudo bash -s -- --ref v0.8.1 --touch
 ```
 
 For a dedicated touchscreen, append `--kiosk --autostart`. Run `flexcompanion-native --version` to verify 0.8.1.

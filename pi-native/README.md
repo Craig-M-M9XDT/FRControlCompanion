@@ -15,13 +15,13 @@ Trixie's PySide6), on any 64-bit Debian/Ubuntu desktop, and on x86 PCs.
 On the Pi, from a terminal on the desktop:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Craig-M-M9XDT/FlexCompanion/main/pi-native/deploy/install.sh | sudo bash -s -- --touch
+curl -fsSL https://raw.githubusercontent.com/Craig-M-M9XDT/FRControlCompanion/main/pi-native/deploy/install.sh | sudo bash -s -- --touch
 ```
 
 Until this branch is merged into `main`, add `--ref pi-native-python`:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Craig-M-M9XDT/FlexCompanion/pi-native-python/pi-native/deploy/install.sh | sudo bash -s -- --ref pi-native-python --touch
+curl -fsSL https://raw.githubusercontent.com/Craig-M-M9XDT/FRControlCompanion/pi-native-python/pi-native/deploy/install.sh | sudo bash -s -- --ref pi-native-python --touch
 ```
 
 The installer:

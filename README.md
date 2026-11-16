@@ -19,7 +19,7 @@ On compact displays the UI switches to large `RADIO A`, `RADIO B` and `STATION` 
 [`pi-native/`](pi-native/README.md) is a from-scratch rebuild of the Pi app in **Python + Qt (PySide6)** with a **C++ DSP core**. It needs no .NET runtime, builds on the Pi itself, runs on 64- and 32-bit Raspberry Pi OS, and shares this build's settings file. It also includes a simulated radio (`--demo`) for trying it without hardware.
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Craig-M-M9XDT/FlexCompanion/main/pi-native/deploy/install.sh | sudo bash -s -- --touch
+curl -fsSL https://raw.githubusercontent.com/Craig-M-M9XDT/FRControlCompanion/main/pi-native/deploy/install.sh | sudo bash -s -- --touch
 ```
 
 ## Meter layouts

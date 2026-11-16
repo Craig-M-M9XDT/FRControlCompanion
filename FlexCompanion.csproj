@@ -49,9 +49,9 @@
            Text="The application icon Assets\FlexCompanionIcon.ico is missing." />
     <ItemGroup>
       <BrandingAsset Include="$(MSBuildProjectDirectory)\Assets\FlexCompanionIcon.png"
-                     ExpectedHash="FCD1D184C72FAAD1CF62F866CF4AE7D581EE2E309EA56EFC13A1D525D2C7ECC4" />
+                     ExpectedHash="9175EDB78FF73FE6213A350487A6E139828F8003541EFA120429E65B536849A8" />
       <BrandingAsset Include="$(MSBuildProjectDirectory)\Assets\FlexCompanionIcon.ico"
-                     ExpectedHash="AE6D89CF57FF59BFF9AD13535A6BE4CDC95FB59BF22EC9E994FD386ADBF092FA" />
+                     ExpectedHash="037884022E84E130D0F246CB5419C9B374A65C66BA0B86F9DB47C5C4065C68A7" />
     </ItemGroup>
     <GetFileHash Files="@(BrandingAsset)" Algorithm="SHA256">
       <Output TaskParameter="Items" ItemName="ValidatedBrandingAsset" />
